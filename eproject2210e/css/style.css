@@ -1,0 +1,160 @@
+.nav{
+    background-color: rgb(201, 117, 117) !important;
+    color: goldenrod;
+
+}
+body{
+    background-color: black !important;
+}
+a .nav-item{
+    float: left;
+}
+.nav-item {
+    width: 100%;
+}
+
+.carouselId{
+   float: left;
+   padding: 20px;
+   margin: 30px;
+   width: 40%;
+   height:80px ;
+  
+
+}
+.carousel-item{
+  width: 30%;
+  margin: 30px;
+  float: left;
+
+}
+.bi{
+    
+
+}
+.bi:hover{
+  font-weight: bold;
+  color: goldenrod;
+}
+.div{
+    
+    font-size: xx-large;
+}
+.div1{
+    text-align: center;
+    font-size: xx-large;
+    color: goldenrod;
+    padding: 3%;
+    padding-top: 7%;
+    text-decoration: bolder;
+    text-decoration: italic;
+
+}
+.card1{
+    float: left;
+    color: goldenrod;
+    background-color: transparent;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+
+}
+.card2{
+    float: left;
+    padding: 10px;
+    color: goldenrod;
+    background-color: transparent;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   
+}
+.card3{
+    float: left;
+    padding: 10px;
+    color: goldenrod;
+    background-color: transparent;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.heading{
+    font-size: 70px;
+    text-align: center;
+    text-decoration: bold;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 500px;
+    margin-right: 50px;
+}
+.nav-link :hover{
+     background-color:goldenrod;
+}
+.container {
+    position: relative;
+  }
+  
+  .center {
+    position: absolute;
+    top: 30%;
+    width: 60%;
+    text-align:center;
+    height: 80px;
+    
+    
+  }
+
+.btn{
+    background-color: transparent;
+      color: rgb(36, 36, 32);  
+    font-size: smaller;
+    text-align: center;
+    
+    
+    
+}
+.btn:hover{
+    font-weight: bold;
+    color: goldenrod;
+  }
+  
+  
+  .topright {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    font-size: 10px;
+  }
+  .btn1{
+    background-color: transparent;
+    border-radius: 50px;
+     color: goldenrod;
+    border-color: #e0d2d2;  
+   
+ }
+ .btn1:hover{
+   background-color: rgb(245, 235, 235);
+ }
+ .ii{
+    background-color: transparent;
+    color: rgb(221, 221, 213);  
+  font-size: smaller;
+  text-align: center;
+ }
+ .ii:hover{
+    font-weight: bold;
+    color: goldenrod;
+  }
+ 
+
+  .test{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+  }
+  .testimg{
+    visibility: hidden;
+  }
+
+  .test > img:hover{
+    visibility: visible;
+    background-color: antiquewhite;
+  }
