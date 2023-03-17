@@ -13,6 +13,13 @@ a .nav-item{
     width: 100%;
 }
 
+.col-md-6 > img{
+  border-top-right-radius: 50px;
+  /* border-bottom-right-radius: 50px; */
+  
+}
+
+
 .carouselId{
    float: left;
    padding: 20px;
@@ -21,6 +28,58 @@ a .nav-item{
    height:80px ;
   
 
+}
+i, span, a {
+  display: inline-block;
+}
+.banner-content span.promo-tag {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 30px;
+  color: #a3a3a3;
+}
+.main-btn {
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  padding: 0 48px;
+  font-size: 14px;
+  line-height: 60px;
+  border-radius: 0px;
+  transition: all 0.4s ease-out 0s;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #a3a3a3;
+  border: 2px solid #fcd462;
+}
+.main-btn.btn-filled {
+  background-color: #fcd462;
+  color: #fff;
+}
+.main-btn.btn-border {
+  border-color: #40403b;
+}
+li{
+  list-style: none;
+}
+.banner-content .title {
+  font-size: 100px;
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: -6px;
+  padding-bottom: 26px;
+  color: #fff;
+  font-family: "Prata", serif;
+    
+}
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
 }
 .carousel-item{
   width: 30%;
@@ -42,12 +101,13 @@ a .nav-item{
 }
 .div1{
     text-align: center;
-    font-size: xx-large;
+    font-size: 50px;
     color: goldenrod;
     padding: 3%;
     padding-top: 7%;
-    text-decoration: bolder;
-    text-decoration: italic;
+    font-family: "Prata", serif;
+    
+    
 
 }
 .card1{
@@ -144,7 +204,9 @@ a .nav-item{
     color: goldenrod;
   }
  
-
+.navbar{
+  background-color: #1f1f1e;
+}
   .test{
     width: 200px;
     height: 200px;
@@ -158,3 +220,29 @@ a .nav-item{
     visibility: visible;
     background-color: antiquewhite;
   }
+
+  .carousel-id{
+    float: left;
+   padding: 20px;
+   margin: 30px;
+   width: 40%;
+   height:80px ;
+  
+  }
+  .cardtext1{
+    width: 120%;
+  }
+  .cardtext2{
+    width: 120%;
+  }
+  .cardtext3{
+    width: 120%;
+  }
+  .cardtext4{
+    width: 110%;
+  }
+   
+   
+  
+   
+  
