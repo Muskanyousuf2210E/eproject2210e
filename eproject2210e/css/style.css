@@ -205,7 +205,7 @@ li{
   }
  
 .navbar{
-  background-color: #1f1f1e;
+  background-color: #20201d;
 }
   .test{
     width: 200px;
@@ -230,17 +230,19 @@ li{
   
   }
   .cardtext1{
-    width: 120%;
+    width: 100%;
   }
   .cardtext2{
-    width: 120%;
+    width: 100%;
   }
   .cardtext3{
-    width: 120%;
+    width: 100%;
   }
-  .cardtext4{
-    width: 110%;
+  .card-img-top{
+         background-color: transparent;
+         
   }
+  
    
    
   
