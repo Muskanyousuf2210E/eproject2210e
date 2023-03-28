@@ -1536,7 +1536,7 @@
   .icon-send-o:before {
     content: "\f1d9";
   }
-  .icon-history:before {
+  .icon-about:before {
     content: "\f1da";
   }
   .icon-circle-thin:before {
@@ -2814,7 +2814,7 @@
   .icon-center_focus_weak:before {
     content: "\e3b5";
   }
-  .icon-change_history:before {
+  .icon-change_about:before {
     content: "\e86b";
   }
   .icon-chat:before {
