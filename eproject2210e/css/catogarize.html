@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
 
 
 </head>
@@ -25,14 +26,73 @@
           <button class="btn btn-default filter-button" data-filter="sales">RAMAZAN SALE</button>
             </div>
             <div class="rows">
-         <div class="gallery_product col-md-4 filter center vintage ">
-           <img src="imgg/images(2).jpg" alt="">
-
-
-
-
-            </div>
+         <div class="gallery_product col-md-6 filter center vintage ">
+           <img src="imgg/download (1).jpg" alt="">
+        </div>
+        <div class="gallery_product col-md-6 filter center LUXURIES ">
+            <img src="imgg/images (1).jpg" alt="">
+         </div>
+         <div class="gallery_product col-md-6 filter center vintage ">
+            <img src="imgg/images (2).jpg" alt="">
+         </div>
+         <div class="gallery_product col-md-6 filter center smart ">
+            <img src="imgg/images (3).jpg" alt="">
+         </div>
+         <div class="gallery_product col-md-6 filter center vintage ">
+            <img src="imgg/images (4).jpg" alt="">
+         </div>
+         <div class="gallery_product col-md-6 filter center smart">
+            <img src="imgg/download (1).jpg" alt="">
+         </div>
+         <div class="gallery_product col-md-6 filter center RAMAZAN ">
+            <img src="imgg/images (1).jpg" alt="">
+         </div>
+         <div class="gallery_product col-md-6 filter center vintage ">
+            <img src="imgg/images (2).jpg" alt="">
+         </div>
+         <div class="gallery_product col-md-6 filter center smart ">
+            <img src="imgg/images (3).jpg" alt="">
+         </div>
+         <div class="gallery_product col-md-6 filter center vintage ">
+            <img src="imgg/images (4).jpg" alt="">
+         </div>
+         <div class="gallery_product col-md-6 filter center RAMAZAN ">
+            <img src="imgg/images (3).jpg" alt="">
+         </div>
+         <div class="gallery_product col-md-6 filter center vintage ">
+            <img src="imgg/images (4).jpg"  alt="">
+         </div>
+           
         </div>
     </section>
+    <script>
+      $(document).ready(function() {
+
+      $(".filter-button").click(function() {
+         var value = $(this).after('data-filter');
+
+         if(value == "all")
+      }
+        $('.filter').show('1000');
+        
+
+      }
+      else
+      {
+           $('.filter').not('.'+value).hide('3000');
+           $('.filter').filter('.'+value).show('3000');
+      }
+   );
+        if ($(".filter-button").removeClass("active") ) {
+         $(this).removeClass("active");
+        }
+        $(this).addClass("active");
+
+
+      
+
+      
+      
+    </script>
 </body>
 </html>

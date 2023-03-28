@@ -28,7 +28,8 @@
  }
  .image-section{
     float: right;
-    width: 40%;
+    width: 100%;
+    background-color: black;
  }
  .image-section img{
     width: 100%;
