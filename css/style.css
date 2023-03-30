@@ -120,6 +120,7 @@ li{
     
 
 }
+
 .card2{
     /* float: left; */
     padding: 10px;
@@ -135,6 +136,13 @@ li{
     background-color: transparent;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
+}
+.h1{
+  color: goldenrod;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 50px;
 }
 
 .heading{
@@ -1375,3 +1383,8 @@ textarea.form-control {
     100% {opacity: 100%;}
 }
 /* Sticky-Btn-End */
+
+.dropdown-item{
+  color: goldenrod;
+  border-radius: 10px;
+}
