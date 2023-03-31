@@ -65,6 +65,10 @@ i, span, a {
 .main-btn.btn-border {
   border-color: #40403b;
 }
+.main-btn.btn-border:hover{
+text-shadow: #000;
+background-color: goldenrod;
+}
 li{
   list-style: none;
 }
